@@ -9,7 +9,8 @@ int sum();
 int average();
 
 int main(){
-	int i,b;
+	int i;
+	int b;
 	printf("Enter the elements of the array:");
 	for(i=0;i<N;i++){
 		scanf("%d",&a[i]);
