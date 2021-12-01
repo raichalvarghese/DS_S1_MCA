@@ -9,7 +9,8 @@ struct node *front=NULL;
 struct node *rear=NULL;
 void enq();void deq();void traverse();
 int main(){
-    int op,iter=15;
+    int op;
+    int iter=15;
     while(iter--){
         printf("\n\n1.enq\n2.deq\n3.traverse\nEnter a choice:");
         scanf("%d",&op);
