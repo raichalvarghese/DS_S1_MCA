@@ -6,7 +6,7 @@ void push();void pop();void toppest();void display();
 int top=-1;
 void main(){
     int choice;
-    int iter=5;
+    int iter=20;
     while(iter--){
         printf("\n*----------*");
         printf("\nChoices:\n1.push\n2.pop\n3.top\n4.display");
